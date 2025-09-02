@@ -1,0 +1,32 @@
+# LLM & API
+openai>=1.0.0
+tiktoken
+
+# Data Processing
+numpy
+pandas
+nltk
+scikit-learn
+
+# Text similarity & embeddings
+sentence-transformers
+scipy
+
+# NLP & parsing
+spacy
+
+# Robust file format handling
+striprtf
+
+# Config handling
+python-dotenv
+
+# File handling
+PyYAML
+
+# Optional: pretty JSON output & debugging
+rich
+
+# Results reporting in terminal pretty table
+tabulate
+prettytable

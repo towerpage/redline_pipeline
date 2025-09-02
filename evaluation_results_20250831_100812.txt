@@ -1,0 +1,121 @@
+======================================================================
+NDA Clause Redline Evaluation (Per NDA Clause)
+======================================================================
+The number of NDA clauses that should be flagged:
+TP: 7   FP: 1   FN: 1   Precision: 0.88   Recall: 0.88   F1: 0.88
+------------------------------------------------------------
+Clause: ﻿NON‑DISCLOSURE AGREEMENT
+  - Expected:   Playbook: None | Flagged: NO
+  - Actual:     Playbook: None | Flagged: NO
+  - Text Snippet Similarity: N/A
+  - Suggested Fix Similarity: N/A
+------------------------------------------------------------
+Clause: 1. Definitions
+  - Expected:   Playbook: Confidential Information | Flagged: YES
+  - Actual:     Playbook: Confidential Information | Flagged: YES
+  - Text Snippet Similarity: 0.87
+  - Suggested Fix Similarity: 0.87
+------------------------------------------------------------
+Clause: 2. Confidentiality Obligations
+  - Expected:   Playbook: Recipient's Obligations | Flagged: YES
+  - Actual:     Playbook: Recipient's Obligations | Flagged: YES
+  - Text Snippet Similarity: 0.85
+  - Suggested Fix Similarity: 0.90
+------------------------------------------------------------
+Clause: 3. Permitted and Restricted Uses
+  - Expected:   Playbook: None | Flagged: NO
+  - Actual:     Playbook: None | Flagged: NO
+  - Text Snippet Similarity: N/A
+  - Suggested Fix Similarity: N/A
+------------------------------------------------------------
+Clause: 4. Term and Termination
+  - Expected:   Playbook: None | Flagged: NO
+  - Actual:     Playbook: None | Flagged: NO
+  - Text Snippet Similarity: N/A
+  - Suggested Fix Similarity: N/A
+------------------------------------------------------------
+Clause: 5. Return or Destruction of Materials
+  - Expected:   Playbook: Return of confidential information | Flagged: YES
+  - Actual:     Playbook: Return of confidential information | Flagged: YES
+  - Text Snippet Similarity: 0.92
+  - Suggested Fix Similarity: 0.96
+------------------------------------------------------------
+Clause: 6. Disclosures Required by Law
+  - Expected:   Playbook: Disclosure required by Law | Flagged: YES
+  - Actual:     Playbook: Disclosure required by Law | Flagged: YES
+  - Text Snippet Similarity: 0.94
+  - Suggested Fix Similarity: 0.85
+------------------------------------------------------------
+Clause: 7. Ownership; No License
+  - Expected:   Playbook: None | Flagged: NO
+  - Actual:     Playbook: None | Flagged: NO
+  - Text Snippet Similarity: N/A
+  - Suggested Fix Similarity: N/A
+------------------------------------------------------------
+Clause: 8. Indemnification
+  - Expected:   Playbook: Indemnity | Flagged: YES
+  - Actual:     Playbook: Indemnity | Flagged: YES
+  - Text Snippet Similarity: 0.94
+  - Suggested Fix Similarity: 0.98
+------------------------------------------------------------
+Clause: 9. Assignment
+  - Expected:   Playbook: Assignment | Flagged: YES
+  - Actual:     Playbook: Assignment | Flagged: YES
+  - Text Snippet Similarity: 0.92
+  - Suggested Fix Similarity: 0.82
+------------------------------------------------------------
+Clause: 10. Notices
+  - Expected:   Playbook: Notices and domicile | Flagged: YES
+  - Actual:     Playbook: Notices and domicile | Flagged: YES
+  - Text Snippet Similarity: 0.71
+  - Suggested Fix Similarity: 0.77
+------------------------------------------------------------
+Clause: 11. Governing Law; Oral Agreements
+  - Expected:   Playbook: General | Flagged: YES
+  - Actual:     Playbook: None | Flagged: NO
+  - Text Snippet Similarity: 0.00
+  - Suggested Fix Similarity: 0.00
+------------------------------------------------------------
+Clause: 12. Miscellaneous
+  - Expected:   Playbook: None | Flagged: NO
+  - Actual:     Playbook: General | Flagged: YES
+  - Text Snippet Similarity: 0.00
+  - Suggested Fix Similarity: 0.00
+======================================================================
+Playbook Clause Redline Evaluation (Per Playbook Clause)
+======================================================================
+Playbook Clause statistics (flagged anywhere in the NDA):
+TP: 8   FP: 0   FN: 0   Precision: 1.00   Recall: 1.00   F1: 1.00
+
+------------------------------------------------------------
+Playbook Clause: Assignment
+  - NDA Clauses (Expected): 9. Assignment
+  - NDA Clauses (Actual):   9. Assignment
+------------------------------------------------------------
+Playbook Clause: Confidential Information
+  - NDA Clauses (Expected): 1. Definitions
+  - NDA Clauses (Actual):   1. Definitions
+------------------------------------------------------------
+Playbook Clause: Disclosure required by Law
+  - NDA Clauses (Expected): 6. Disclosures Required by Law
+  - NDA Clauses (Actual):   6. Disclosures Required by Law
+------------------------------------------------------------
+Playbook Clause: General
+  - NDA Clauses (Expected): 11. Governing Law; Oral Agreements
+  - NDA Clauses (Actual):   12. Miscellaneous
+------------------------------------------------------------
+Playbook Clause: Indemnity
+  - NDA Clauses (Expected): 8. Indemnification
+  - NDA Clauses (Actual):   8. Indemnification
+------------------------------------------------------------
+Playbook Clause: Notices and domicile
+  - NDA Clauses (Expected): 10. Notices
+  - NDA Clauses (Actual):   10. Notices
+------------------------------------------------------------
+Playbook Clause: Recipient's Obligations
+  - NDA Clauses (Expected): 2. Confidentiality Obligations
+  - NDA Clauses (Actual):   2. Confidentiality Obligations
+------------------------------------------------------------
+Playbook Clause: Return of confidential information
+  - NDA Clauses (Expected): 5. Return or Destruction of Materials
+  - NDA Clauses (Actual):   5. Return or Destruction of Materials
